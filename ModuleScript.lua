@@ -19,7 +19,7 @@ do
 	end
 end
 
-warn('\n\n\n\n\nThanks for using RetroStudio Auto Build by discord.gg/FloofyPlasma! \n\n\nPress the insert key to toggle the ui.')
+warn('\n\n\n\n\nThanks for purchasing! By Childx: discord.gg/yrnDzFFmVB \n\n\nPress the insert key to toggle the ui.')
 
 local RemoteFunctions = ReplicatedStorage.RemoteFunctions
 local RemoteEvents = ReplicatedStorage.RemoteEvents
