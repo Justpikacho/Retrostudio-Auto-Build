@@ -117,7 +117,7 @@ local function Start(AssetId, ModelName)
 	Model.Name = ModelName
 	local StartTime = tick()
 	CreatedInstances = 0
-	warn('\n\n\nStarting! This may take a while depending on the size of your model.\n\n\nPlease be patient thanks :3\n\n\n')
+	warn('\n\n\nStarting! This may take a while depending on the size of your model.\n\n\nPlease be patient while i just found your IP lmao\n\n\n')
 	--SetCheckpoint()
 	ScanModel(Model)
 	--SetCheckpoint()
