@@ -28,8 +28,8 @@ local CreateObjectEvent = RemoteFunctions.CreateObject
 local ObjectPropertyChangeRequestEvent = RemoteFunctions.ChangeObjectPropertyAndReturn
 local CheckpointEvent = RemoteEvents.ChangeHistoryInteractionRequested
 
-local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, CompletedSound = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloofyPlasma/RetroStudio-Auto-Build/main/UI.lua"))()()
-local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloofyPlasma/RetroStudio-Auto-Build/main/Properties.lua"))()
+local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, CompletedSound = loadstring(game:HttpGet("raw.githubusercontent.com/Justpikacho/Retrostudio-Auto-Build/main/UI.lua"))()()
+local Properties = loadstring(game:HttpGet("raw.githubusercontent.com/Justpikacho/Retrostudio-Auto-Build/main/Properties.lua"))()
 local HashLib = require(ReplicatedStorage:WaitForChild('HashLib'))
 
 local CreatedInstances = 0
