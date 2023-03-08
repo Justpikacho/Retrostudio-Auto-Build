@@ -57,7 +57,7 @@ StartButton.Size = UDim2.new(0, 243, 0, 40)
 StartButton.Font = Enum.Font.GothamBlack
 StartButton.Text = "AUTO BUILD"
 StartButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-StartButton.TextSize = 14.000
+StartButton.TextSize = 21
 
 UICorner_2.Parent = StartButton
 
