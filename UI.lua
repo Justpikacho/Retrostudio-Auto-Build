@@ -30,7 +30,6 @@ MainFrame.Position = UDim2.new(0.559, 0, 0.543, 0)
 MainFrame.Size = UDim2.new(0, 326, 0, 236)
 MainFrame.Active = true
 MainFrame.Draggable = true
-MainFrame.Zindex = 3
 
 Title.Name = "Title"
 Title.Parent = MainFrame
