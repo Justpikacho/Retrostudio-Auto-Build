@@ -8,7 +8,7 @@ local Player = Players.LocalPlayer
 
 if game.PlaceId ~= 5846387555 then
 	local message = Instance.new('Message', workspace)
-	message.Text = "Hey, you're in the wrong place. This only works in studio mode."
+	message.Text = "The script only works in studio mode."
 	return
 end
 
@@ -19,7 +19,7 @@ do
 	end
 end
 
-warn('\n\n\n\n\nThanks for purchasing! By Childx: discord.gg/yrnDzFFmVB \n\n\nPress the insert key to toggle the ui.')
+warn('\n\n\n\n\nThanks for purchasing!\n\n\n Made by Childx discord.gg/yrnDzFFmVB')
 
 local RemoteFunctions = ReplicatedStorage.RemoteFunctions
 local RemoteEvents = ReplicatedStorage.RemoteEvents
@@ -117,7 +117,7 @@ local function Start(AssetId, ModelName)
 	Model.Name = ModelName
 	local StartTime = tick()
 	CreatedInstances = 0
-	warn('\n\n\nStarting! This may take a while depending on the size of your model.\n\n\nPlease be patient while i just found your IP lmao\n\n\n')
+	warn('\n\n\nStarting! This may take a while depending on the size of your model.\n\n\nPlease wait!\n\n\n')
 	--SetCheckpoint()
 	ScanModel(Model)
 	--SetCheckpoint()
