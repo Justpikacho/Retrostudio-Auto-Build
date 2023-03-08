@@ -30,6 +30,7 @@ MainFrame.Position = UDim2.new(0.559, 0, 0.543, 0)
 MainFrame.Size = UDim2.new(0, 326, 0, 236)
 MainFrame.Active = true
 MainFrame.Draggable = true
+MainFrame.Zindex = 3
 
 Title.Name = "Title"
 Title.Parent = MainFrame
@@ -72,7 +73,7 @@ AssetID.Font = Enum.Font.GothamSemibold
 AssetID.PlaceholderText = "Asset ID..."
 AssetID.Text = ""
 AssetID.TextColor3 = Color3.fromRGB(255, 255, 255)
-AssetID.TextSize = 14.000
+AssetID.TextSize = 21
 
 UICorner_3.Parent = AssetID
 
