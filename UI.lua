@@ -31,6 +31,9 @@ MainFrame.Size = UDim2.new(0, 326, 0, 236)
 MainFrame.Active = true
 MainFrame.Draggable = true
 
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(197, 60, 255))}
+UIGradient.Parent = MainFrame
+
 Title.Name = "Title"
 Title.Parent = MainFrame
 Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
