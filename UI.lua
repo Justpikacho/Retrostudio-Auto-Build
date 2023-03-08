@@ -15,7 +15,7 @@ local UICorner_3 = Instance.new("UICorner")
 local ModelName = Instance.new("TextBox")
 local UICorner_4 = Instance.new("UICorner")
 local CompletedSound = Instance.new('Sound')
-local Gradient = Instance.new("UIGradient")
+local Gradient1 = Instance.new("UIGradient")
 
 --Properties:
 
@@ -32,8 +32,8 @@ MainFrame.Size = UDim2.new(0, 326, 0, 236)
 MainFrame.Active = true
 MainFrame.Draggable = true
 
-Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(197, 60, 255))}
-Gradient.Parent = MainFrame
+Gradient1.Parent = MainFrame
+Gradient1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(197, 60, 255))}
 
 Title.Name = "Title"
 Title.Parent = MainFrame
