@@ -16,7 +16,6 @@ local ModelName = Instance.new("TextBox")
 local UICorner_4 = Instance.new("UICorner")
 local CompletedSound = Instance.new('Sound')
 local Gradient1 = Instance.new("UIGradient")
-local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -32,14 +31,6 @@ MainFrame.Position = UDim2.new(0.559, 0, 0.543, 0)
 MainFrame.Size = UDim2.new(0, 326, 0, 236)
 MainFrame.Active = true
 MainFrame.Draggable = true
-
-ImageLabel.Parent = MainFrame
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.Position = UDim2.new(0.218098089, 0, -0.012711864, 0)
-ImageLabel.Size = UDim2.new(0, 182, 0, 72)
-ImageLabel.ZIndex = -1
-ImageLabel.Image = "http://www.roblox.com/asset/?id=12731306666"
 
 Gradient1.Parent = MainFrame
 Gradient1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(154, 45, 249))}
