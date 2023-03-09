@@ -19,7 +19,7 @@ do
 	end
 end
 
-warn('\n\n\n\n\nThanks for purchasing!\n\n\n Made by Childx discord.gg/yrnDzFFmVB')
+warn('\n\n\n\n\nThanks for using!\n Made by Childx discord.gg/yrnDzFFmVB')
 
 local RemoteFunctions = ReplicatedStorage.RemoteFunctions
 local RemoteEvents = ReplicatedStorage.RemoteEvents
